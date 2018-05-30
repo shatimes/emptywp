@@ -1,4 +1,7 @@
 <?php
+// ** MySQL settings - You can get this info from your web host ** //
+require_once( __DIR__ . '/wp-config_local.php' );
+
 define('WP_CONTENT_DIR', __DIR__ . '/wp-content');
 define('WP_CONTENT_URL', WP_HOME . '/wp-content');
 
@@ -28,9 +31,6 @@ if ( !defined('ABSPATH') ) {
  *
  * @package WordPress
  */
-
-// ** MySQL settings - You can get this info from your web host ** //
-require_once( __DIR__ . '/wp-config_local.php' );
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
