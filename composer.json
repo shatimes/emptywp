@@ -1,0 +1,20 @@
+{
+    "require": {
+        "johnpbloch/wordpress-core-installer": "*@stable",
+        "johnpbloch/wordpress": "^4.9",
+        "wpackagist-theme/twentyseventeen": "*@stable"
+    },
+    "extra": {
+        "installer-paths": {
+            "www/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "www/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+        },
+        "wordpress-install-dir": "www/wp-core"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ]
+}

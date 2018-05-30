@@ -1,0 +1,10 @@
+/www/wp-core/
+/www/wp-content/uploads
+/www/wp-content/plugins
+/www/wp-content/themes
+
+vendor
+
+*.log
+*_local.*
+.DS_Store
