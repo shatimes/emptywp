@@ -1,11 +1,6 @@
 <?php
-
-// generated contents of wp-config.php, salts, database and so on
-define('WP_HOME', 'http://test.local.inouit.com');
-define('WP_SITEURL', 'http://test.local.inouit.com');
-
-define('WP_CONTENT_DIR',    __DIR__ . '/wp-content');
-define('WP_CONTENT_URL',    WP_HOME . '/wp-content');
+define('WP_CONTENT_DIR', __DIR__ . '/wp-content');
+define('WP_CONTENT_URL', WP_HOME . '/wp-content');
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') ) {

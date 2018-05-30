@@ -3,6 +3,9 @@
 /** Duplicate this file to wp-config_local.php **/
 /** /!\ **/
 
+define('WP_HOME', 'http://example.local');
+define('WP_SITEURL', 'http://example.local');
+
 define('DB_NAME', '');
 
 /** MySQL database username */
